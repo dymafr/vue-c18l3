@@ -6,6 +6,7 @@ import { routes } from './routes';
 const router = createRouter({
   history: createWebHistory(),
   routes: routes,
+  strict: true,
 });
 
 const app = createApp(App);

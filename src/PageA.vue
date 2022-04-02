@@ -1,6 +1,7 @@
 <template>
   <div class="card p-20 d-flex justify-content-center align-items-center">
     <h1>La page A</h1>
+    <div v-if="route.params">{{ route.params }}</div>
   </div>
 </template>
 
